@@ -1,3 +1,4 @@
+
 local ScreenGui = Instance.new("ScreenGui")
 local Frame = Instance.new("Frame")
 local TextLabel = Instance.new("TextLabel")
@@ -20,9 +21,8 @@ local TextButton_16 = Instance.new("TextButton")
 local TextButton_17 = Instance.new("TextButton")
 local TextButton_18 = Instance.new("TextButton")
 local TextButton_19 = Instance.new("TextButton")
+local ImageLabel = Instance.new("ImageLabel")
 local TextButton_20 = Instance.new("TextButton")
-
---Properties:
 
 ScreenGui.Parent = game.CoreGui
 
@@ -38,7 +38,7 @@ TextLabel.BackgroundColor3 = Color3.fromRGB(121, 121, 121)
 TextLabel.Position = UDim2.new(-0.00234115426, 0, 0, 0)
 TextLabel.Size = UDim2.new(0, 650, 0, 50)
 TextLabel.Font = Enum.Font.SourceSans
-TextLabel.Text = "stalkloop BY Renegade party#8440 on disc. M to hide"
+TextLabel.Text = "stalkloop BY NICELOL#6431 on disc. M to hide"
 TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel.TextSize = 30.000
 
@@ -59,7 +59,7 @@ TextButton_2.BackgroundColor3 = Color3.fromRGB(121, 121, 121)
 TextButton_2.Position = UDim2.new(0.428721577, 0, 0.46875, 0)
 TextButton_2.Size = UDim2.new(0, 123, 0, 50)
 TextButton_2.Font = Enum.Font.SourceSans
-TextButton_2.Text = "2nd script (psx)"
+TextButton_2.Text = "2nd script"
 TextButton_2.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_2.TextSize = 20.000
 TextButton_2.MouseButton1Down:Connect(function()
@@ -192,7 +192,6 @@ TextButton_14.MouseButton1Down:Connect(function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
 end)
 
-
 TextButton_15.Parent = Frame
 TextButton_15.BackgroundColor3 = Color3.fromRGB(121, 121, 121)
 TextButton_15.Position = UDim2.new(0.620154977, 0, 0.625, 0)
@@ -242,6 +241,12 @@ TextButton_19.Text = "Close"
 TextButton_19.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_19.TextSize = 30.000
 
+ImageLabel.Parent = Frame
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.Position = UDim2.new(-0.00308166421, 0, 0, 0)
+ImageLabel.Size = UDim2.new(0, 55, 0, 49)
+ImageLabel.Image = "http://www.roblox.com/asset/?id=9606023873"
+
 TextButton_20.Parent = ScreenGui
 TextButton_20.BackgroundColor3 = Color3.fromRGB(55, 255, 0)
 TextButton_20.Position = UDim2.new(-0.00696057035, 0, 0.381404161, 0)
@@ -251,7 +256,7 @@ TextButton_20.Text = "Open"
 TextButton_20.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_20.TextSize = 20.000
 
-local function MWRSZKY_fake_script() -- Frame.LocalScript 
+local function VVJFHT_fake_script() -- Frame.LocalScript 
 	local script = Instance.new('LocalScript', Frame)
 
 	player = game.Players.LocalPlayer
@@ -266,16 +271,16 @@ local function MWRSZKY_fake_script() -- Frame.LocalScript
 		end
 	end)
 end
-coroutine.wrap(MWRSZKY_fake_script)()
-local function ZMYRVSB_fake_script() -- TextButton_19.LocalScript 
+coroutine.wrap(VVJFHT_fake_script)()
+local function YHDE_fake_script() -- TextButton_19.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_19)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.Visible = false
 	end)
 end
-coroutine.wrap(ZMYRVSB_fake_script)()
-local function WXOLZ_fake_script() -- TextButton_20.LocalScript 
+coroutine.wrap(YHDE_fake_script)()
+local function MYYU_fake_script() -- TextButton_20.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_20)
 
 	local frame = script.Parent.Parent.Frame
@@ -287,4 +292,4 @@ local function WXOLZ_fake_script() -- TextButton_20.LocalScript
 		end
 	end)
 end
-coroutine.wrap(WXOLZ_fake_script)()
+coroutine.wrap(MYYU_fake_script)()
