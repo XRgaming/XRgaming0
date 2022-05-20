@@ -164,9 +164,12 @@ TextButton_11.BackgroundColor3 = Color3.fromRGB(121, 121, 121)
 TextButton_11.Position = UDim2.new(-0.000800322334, 0, 0.78125, 0)
 TextButton_11.Size = UDim2.new(0, 279, 0, 50)
 TextButton_11.Font = Enum.Font.SourceSans
-TextButton_11.Text = "More coming soon!"
+TextButton_11.Text = "zombie defense key (1sj42h12h)"
 TextButton_11.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_11.TextSize = 20.000
+TextButton_11.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/MaGiXxScripter/Cum-Hub/main/loader'))()
+end)
 
 TextButton_12.Parent = Frame
 TextButton_12.BackgroundColor3 = Color3.fromRGB(121, 121, 121)
