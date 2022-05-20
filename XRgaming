@@ -38,7 +38,7 @@ TextLabel.BackgroundColor3 = Color3.fromRGB(121, 121, 121)
 TextLabel.Position = UDim2.new(-0.00234115426, 0, 0, 0)
 TextLabel.Size = UDim2.new(0, 650, 0, 50)
 TextLabel.Font = Enum.Font.SourceSans
-TextLabel.Text = "stalkloop BY Renegaderaider#8440 on disc. M to hide"
+TextLabel.Text = "BY Renegade raider#8440 on disc M to hide"
 TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel.TextSize = 30.000
 
@@ -264,6 +264,8 @@ TextButton_20.Font = Enum.Font.SourceSans
 TextButton_20.Text = "Open"
 TextButton_20.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_20.TextSize = 20.000
+TextButton_20.Active = true
+TextButton_20.Draggable = true
 
 local function VVJFHT_fake_script() -- Frame.LocalScript 
 	local script = Instance.new('LocalScript', Frame)
