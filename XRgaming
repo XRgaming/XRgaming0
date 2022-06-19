@@ -311,7 +311,7 @@ TextButton_26.Text = "Open"
 TextButton_26.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_26.TextSize = 30.000
 TextButton_26.Active = true
-TextButton_26.Draggable = true = true
+TextButton_26.Draggable = true
 
 local function RFBUAN_fake_script() 
 	local script = Instance.new('LocalScript', TextLabel)
