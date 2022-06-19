@@ -1,6 +1,7 @@
 
+
 local ScreenGui = Instance.new("ScreenGui")
-local Frame = Instance.new("Frame")
+local GUI = Instance.new("Frame")
 local TextLabel = Instance.new("TextLabel")
 local TextButton = Instance.new("TextButton")
 local TextButton_2 = Instance.new("TextButton")
@@ -21,257 +22,360 @@ local TextButton_16 = Instance.new("TextButton")
 local TextButton_17 = Instance.new("TextButton")
 local TextButton_18 = Instance.new("TextButton")
 local TextButton_19 = Instance.new("TextButton")
-local ImageLabel = Instance.new("ImageLabel")
 local TextButton_20 = Instance.new("TextButton")
+local TextButton_21 = Instance.new("TextButton")
+local TextLabel_2 = Instance.new("TextLabel")
+local TextButton_22 = Instance.new("TextButton")
+local TextButton_23 = Instance.new("TextButton")
+local TextButton_24 = Instance.new("TextButton")
+local TextButton_25 = Instance.new("TextButton")
+local TextButton_26 = Instance.new("TextButton")
+
+--Properties:
 
 ScreenGui.Parent = game.CoreGui
 
-Frame.Parent = ScreenGui
-Frame.BackgroundColor3 = Color3.fromRGB(121, 121, 121)
-Frame.Position = UDim2.new(0.0596205965, 0, 0.195445925, 0)
-Frame.Size = UDim2.new(0, 649, 0, 320)
-Frame.Active = true
-Frame.Draggable = true
+GUI.Name = "GUI"
+GUI.Parent = ScreenGui
+GUI.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+GUI.Position = UDim2.new(0.213683218, 0, 0.206759438, 0)
+GUI.Size = UDim2.new(0, 611, 0, 294)
+GUI.Active = true
+GUI.Draggable = true
 
-TextLabel.Parent = Frame
-TextLabel.BackgroundColor3 = Color3.fromRGB(121, 121, 121)
-TextLabel.Position = UDim2.new(-0.00234115426, 0, 0, 0)
-TextLabel.Size = UDim2.new(0, 650, 0, 50)
+TextLabel.Parent = GUI
+TextLabel.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.Size = UDim2.new(0, 611, 0, 39)
 TextLabel.Font = Enum.Font.SourceSans
-TextLabel.Text = "BY Renegade raider#8440 on disc M to hide"
+TextLabel.Text = "Nighto!"
 TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel.TextSize = 30.000
 
-TextButton.Parent = Frame
-TextButton.BackgroundColor3 = Color3.fromRGB(121, 121, 121)
-TextButton.Position = UDim2.new(0.617073357, 0, 0.46874994, 0)
-TextButton.Size = UDim2.new(0, 248, 0, 50)
+TextButton.Parent = GUI
+TextButton.BackgroundColor3 = Color3.fromRGB(104, 104, 104)
+TextButton.Position = UDim2.new(0, 0, 0.132653058, 0)
+TextButton.Size = UDim2.new(0, 132, 0, 47)
 TextButton.Font = Enum.Font.SourceSans
-TextButton.Text = "fnf"
+TextButton.Text = "ESP"
 TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextButton.TextSize = 20.000
+TextButton.TextSize = 40.000
 TextButton.MouseButton1Down:Connect(function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/wally-rblx/funky-friday-autoplay/main/main.lua",true))()
+	loadstring(game:HttpGet('https://pastebin.com/raw/Vv3mgJEd')()
 end)
 
-TextButton_2.Parent = Frame
-TextButton_2.BackgroundColor3 = Color3.fromRGB(121, 121, 121)
-TextButton_2.Position = UDim2.new(0.428721577, 0, 0.46875, 0)
-TextButton_2.Size = UDim2.new(0, 123, 0, 50)
+TextButton_2.Parent = GUI
+TextButton_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_2.Position = UDim2.new(0.919803619, 0, 0, 0)
+TextButton_2.Size = UDim2.new(0, 49, 0, 39)
 TextButton_2.Font = Enum.Font.SourceSans
-TextButton_2.Text = "2nd script"
+TextButton_2.Text = "X"
 TextButton_2.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_2.TextSize = 20.000
-TextButton_2.MouseButton1Down:Connect(function()
-	loadstring(game:HttpGet"https://pastebin.com/raw/2KigdC6G")()
-end)
+TextButton_2.TextSize = 34.000
 
-TextButton_3.Parent = Frame
-TextButton_3.BackgroundColor3 = Color3.fromRGB(121, 121, 121)
-TextButton_3.Position = UDim2.new(0.620154977, 0, 0.3125, 0)
-TextButton_3.Size = UDim2.new(0, 246, 0, 50)
+TextButton_3.Parent = GUI
+TextButton_3.BackgroundColor3 = Color3.fromRGB(104, 104, 104)
+TextButton_3.Position = UDim2.new(0.7839607, 0, 0.612244904, 0)
+TextButton_3.Size = UDim2.new(0, 132, 0, 47)
 TextButton_3.Font = Enum.Font.SourceSans
-TextButton_3.Text = "super hero tycoon"
+TextButton_3.Text = "Soon!"
 TextButton_3.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_3.TextSize = 20.000
-TextButton_3.MouseButton1Down:Connect(function()
-	loadstring(game:HttpGet("https://pastebin.com/raw/HkfCDTkz", true))()
-end)
+TextButton_3.TextSize = 40.000
 
-TextButton_4.Parent = Frame
-TextButton_4.BackgroundColor3 = Color3.fromRGB(121, 121, 121)
-TextButton_4.Position = UDim2.new(0.428721577, 0, 0.3125, 0)
-TextButton_4.Size = UDim2.new(0, 123, 0, 50)
+TextButton_4.Parent = GUI
+TextButton_4.BackgroundColor3 = Color3.fromRGB(104, 104, 104)
+TextButton_4.Position = UDim2.new(0.56792146, 0, 0.612244904, 0)
+TextButton_4.Size = UDim2.new(0, 132, 0, 47)
 TextButton_4.Font = Enum.Font.SourceSans
-TextButton_4.Text = "Bedwars monkey"
+TextButton_4.Text = "Soon!"
 TextButton_4.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_4.TextSize = 20.000
-TextButton_4.MouseButton1Down:Connect(function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/KuriWasTaken/MonkeyScripts/main/BedWarsMonkey.lua"))()
-end)
+TextButton_4.TextSize = 40.000
 
-TextButton_5.Parent = Frame
-TextButton_5.BackgroundColor3 = Color3.fromRGB(121, 121, 121)
-TextButton_5.Position = UDim2.new(0.620154977, 0, 0.15625, 0)
-TextButton_5.Size = UDim2.new(0, 246, 0, 50)
+TextButton_5.Parent = GUI
+TextButton_5.BackgroundColor3 = Color3.fromRGB(104, 104, 104)
+TextButton_5.Position = UDim2.new(0.216039285, 0, 0.612244904, 0)
+TextButton_5.Size = UDim2.new(0, 132, 0, 47)
 TextButton_5.Font = Enum.Font.SourceSans
-TextButton_5.Text = "Ragdoll Engine"
+TextButton_5.Text = "Soon!"
 TextButton_5.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_5.TextSize = 20.000
-TextButton_6.MouseButton1Down:Connect(function()
-	loadstring(game:HttpGet('https://raw.githubusercontent.com/martinelcrac/cryptonichub/main/Ragdollengine.lua'))() 
-end)
+TextButton_5.TextSize = 40.000
 
-TextButton_6.Parent = Frame
-TextButton_6.BackgroundColor3 = Color3.fromRGB(121, 121, 121)
-TextButton_6.Position = UDim2.new(0.429091841, 0, 0.15625, 0)
-TextButton_6.Size = UDim2.new(0, 124, 0, 50)
+TextButton_6.Parent = GUI
+TextButton_6.BackgroundColor3 = Color3.fromRGB(104, 104, 104)
+TextButton_6.Position = UDim2.new(0, 0, 0.612244904, 0)
+TextButton_6.Size = UDim2.new(0, 132, 0, 47)
 TextButton_6.Font = Enum.Font.SourceSans
-TextButton_6.Text = "MM2"
+TextButton_6.Text = "Soon!"
 TextButton_6.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_6.TextSize = 20.000
-TextButton_6.MouseButton1Down:Connect(function()
-	loadstring(game:HttpGet('https://solarishub.dev/script.lua',true))() 
-end)
+TextButton_6.TextSize = 40.000
 
-TextButton_7.Parent = Frame
-TextButton_7.BackgroundColor3 = Color3.fromRGB(121, 121, 121)
-TextButton_7.Position = UDim2.new(0.430262387, 0, 0.9375, 0)
-TextButton_7.Size = UDim2.new(0, 123, 0, 20)
+TextButton_7.Parent = GUI
+TextButton_7.BackgroundColor3 = Color3.fromRGB(104, 104, 104)
+TextButton_7.Position = UDim2.new(0.7839607, 0, 0.452380955, 0)
+TextButton_7.Size = UDim2.new(0, 132, 0, 47)
 TextButton_7.Font = Enum.Font.SourceSans
-TextButton_7.Text = "infinite yield"
+TextButton_7.Text = "Soon!"
 TextButton_7.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_7.TextSize = 20.000
-TextButton_7.MouseButton1Down:Connect(function()
-	loadstring(game:HttpGet"https://raw.githubusercontent.com/XRgaming/infinite-yield/XRgamingforgudSCRIPT)/infinite%20yield")()
-end)
+TextButton_7.TextSize = 40.000
 
-TextButton_8.Parent = Frame
-TextButton_8.BackgroundColor3 = Color3.fromRGB(121, 121, 121)
-TextButton_8.Position = UDim2.new(0.430262417, 0, 0.78125, 0)
-TextButton_8.Size = UDim2.new(0, 123, 0, 50)
+TextButton_8.Parent = GUI
+TextButton_8.BackgroundColor3 = Color3.fromRGB(104, 104, 104)
+TextButton_8.Position = UDim2.new(0.56792146, 0, 0.452380955, 0)
+TextButton_8.Size = UDim2.new(0, 132, 0, 47)
 TextButton_8.Font = Enum.Font.SourceSans
-TextButton_8.Text = "impersonate users"
+TextButton_8.Text = "Soon!"
 TextButton_8.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_8.TextSize = 20.000
-TextButton_6.MouseButton1Down:Connect(function()
-	loadstring(game:HttpGet('https://raw.githubusercontent.com/ant-7802/--/main/straightmilk.lua'))()
-end)
+TextButton_8.TextSize = 40.000
 
-TextButton_9.Parent = Frame
-TextButton_9.BackgroundColor3 = Color3.fromRGB(121, 121, 121)
-TextButton_9.Position = UDim2.new(0.430262417, 0, 0.625, 0)
-TextButton_9.Size = UDim2.new(0, 123, 0, 50)
+TextButton_9.Parent = GUI
+TextButton_9.BackgroundColor3 = Color3.fromRGB(104, 104, 104)
+TextButton_9.Position = UDim2.new(0.216039285, 0, 0.452380955, 0)
+TextButton_9.Size = UDim2.new(0, 132, 0, 47)
 TextButton_9.Font = Enum.Font.SourceSans
-TextButton_9.Text = "3rd script"
+TextButton_9.Text = "Soon!"
 TextButton_9.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_9.TextSize = 20.000
-TextButton_9.MouseButton1Down:Connect(function()
-	loadstring(game:HttpGet"https://pastebin.com/raw/VZa22kHn")()
-end)
+TextButton_9.TextSize = 40.000
 
-TextButton_10.Parent = Frame
-TextButton_10.BackgroundColor3 = Color3.fromRGB(121, 121, 121)
-TextButton_10.Position = UDim2.new(-0.000800322334, 0, 0.9375, 0)
-TextButton_10.Size = UDim2.new(0, 279, 0, 20)
+TextButton_10.Parent = GUI
+TextButton_10.BackgroundColor3 = Color3.fromRGB(104, 104, 104)
+TextButton_10.Position = UDim2.new(0, 0, 0.452380955, 0)
+TextButton_10.Size = UDim2.new(0, 132, 0, 47)
 TextButton_10.Font = Enum.Font.SourceSans
-TextButton_10.Text = "More Coming Soon!"
+TextButton_10.Text = "Soon!"
 TextButton_10.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_10.TextSize = 20.000
+TextButton_10.TextSize = 40.000
 
-TextButton_11.Parent = Frame
-TextButton_11.BackgroundColor3 = Color3.fromRGB(121, 121, 121)
-TextButton_11.Position = UDim2.new(-0.000800322334, 0, 0.78125, 0)
-TextButton_11.Size = UDim2.new(0, 279, 0, 50)
+TextButton_11.Parent = GUI
+TextButton_11.BackgroundColor3 = Color3.fromRGB(104, 104, 104)
+TextButton_11.Position = UDim2.new(0.7839607, 0, 0.292517006, 0)
+TextButton_11.Size = UDim2.new(0, 132, 0, 47)
 TextButton_11.Font = Enum.Font.SourceSans
-TextButton_11.Text = "zombie defense key (1sj42h12h)"
+TextButton_11.Text = "Soon!"
 TextButton_11.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_11.TextSize = 20.000
-TextButton_11.MouseButton1Down:Connect(function()
-	loadstring(game:HttpGet('https://raw.githubusercontent.com/MaGiXxScripter/Cum-Hub/main/loader'))()
-end)
+TextButton_11.TextSize = 40.000
 
-TextButton_12.Parent = Frame
-TextButton_12.BackgroundColor3 = Color3.fromRGB(121, 121, 121)
-TextButton_12.Position = UDim2.new(-0.000800322334, 0, 0.625, 0)
-TextButton_12.Size = UDim2.new(0, 279, 0, 50)
+TextButton_12.Parent = GUI
+TextButton_12.BackgroundColor3 = Color3.fromRGB(104, 104, 104)
+TextButton_12.Position = UDim2.new(0.56792146, 0, 0.292517006, 0)
+TextButton_12.Size = UDim2.new(0, 132, 0, 47)
 TextButton_12.Font = Enum.Font.SourceSans
-TextButton_12.Text = "More Coming Soon!"
+TextButton_12.Text = "Happy runner"
 TextButton_12.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_12.TextSize = 20.000
+TextButton_12.TextSize = 27.000
+TextButton_12.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/zReal-King/Rage-And-Happy-Runner-v1/main/Gui'))()
+end)
 
-TextButton_13.Parent = Frame
-TextButton_13.BackgroundColor3 = Color3.fromRGB(121, 121, 121)
-TextButton_13.Position = UDim2.new(-0.000800322334, 0, 0.46875, 0)
-TextButton_13.Size = UDim2.new(0, 279, 0, 50)
+TextButton_13.Parent = GUI
+TextButton_13.BackgroundColor3 = Color3.fromRGB(104, 104, 104)
+TextButton_13.Position = UDim2.new(0.216039285, 0, 0.292517006, 0)
+TextButton_13.Size = UDim2.new(0, 132, 0, 47)
 TextButton_13.Font = Enum.Font.SourceSans
-TextButton_13.Text = "get tall, r15 games and character only"
+TextButton_13.Text = "PSX"
 TextButton_13.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_13.TextSize = 20.000
+TextButton_13.TextSize = 40.000
 TextButton_13.MouseButton1Down:Connect(function()
-	loadstring(game:HttpGet"https://pastebin.com/raw/xXVqkPSV")()
-end)
-
-TextButton_14.Parent = Frame
-TextButton_14.BackgroundColor3 = Color3.fromRGB(121, 121, 121)
-TextButton_14.Position = UDim2.new(-0.00234115426, 0, 0.3125, 0)
-TextButton_14.Size = UDim2.new(0, 280, 0, 50)
-TextButton_14.Font = Enum.Font.SourceSans
-TextButton_14.Text = "Bedwars"
-TextButton_14.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_14.TextSize = 20.000
-TextButton_14.MouseButton1Down:Connect(function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
-end)
-
-TextButton_15.Parent = Frame
-TextButton_15.BackgroundColor3 = Color3.fromRGB(121, 121, 121)
-TextButton_15.Position = UDim2.new(0.620154977, 0, 0.625, 0)
-TextButton_15.Size = UDim2.new(0, 246, 0, 50)
-TextButton_15.Font = Enum.Font.SourceSans
-TextButton_15.Text = "More Coming Soon!"
-TextButton_15.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_15.TextSize = 20.000
-
-TextButton_16.Parent = Frame
-TextButton_16.BackgroundColor3 = Color3.fromRGB(121, 121, 121)
-TextButton_16.Position = UDim2.new(0.620154977, 0, 0.78125, 0)
-TextButton_16.Size = UDim2.new(0, 246, 0, 50)
-TextButton_16.Font = Enum.Font.SourceSans
-TextButton_16.Text = "More Coming Soon!"
-TextButton_16.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_16.TextSize = 20.000
-
-TextButton_17.Parent = Frame
-TextButton_17.BackgroundColor3 = Color3.fromRGB(121, 121, 121)
-TextButton_17.Position = UDim2.new(0.620154977, 0, 0.9375, 0)
-TextButton_17.Size = UDim2.new(0, 246, 0, 20)
-TextButton_17.Font = Enum.Font.SourceSans
-TextButton_17.Text = "More Coming Soon!"
-TextButton_17.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_17.TextSize = 20.000
-
-TextButton_18.Parent = Frame
-TextButton_18.BackgroundColor3 = Color3.fromRGB(121, 121, 121)
-TextButton_18.Position = UDim2.new(-0.00234115426, 0, 0.155060962, 0)
-TextButton_18.Size = UDim2.new(0, 280, 0, 49)
-TextButton_18.Font = Enum.Font.SourceSans
-TextButton_18.Text = "PSX"
-TextButton_18.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_18.TextSize = 20.000
-TextButton_18.MouseButton1Down:Connect(function()
 	_G.Color = Color3.fromRGB(255, 255, 255)
 	loadstring(game:HttpGet"https://rawscripts.net/raw/SAZA-HUB_496")()
 end)
 
-TextButton_19.Parent = Frame
-TextButton_19.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
-TextButton_19.Position = UDim2.new(0.913713396, 0, 0, 0)
-TextButton_19.Size = UDim2.new(0, 55, 0, 49)
+TextButton_14.Parent = GUI
+TextButton_14.BackgroundColor3 = Color3.fromRGB(104, 104, 104)
+TextButton_14.Position = UDim2.new(0, 0, 0.292517006, 0)
+TextButton_14.Size = UDim2.new(0, 132, 0, 47)
+TextButton_14.Font = Enum.Font.SourceSans
+TextButton_14.Text = "FNF"
+TextButton_14.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_14.TextSize = 40.000
+TextButton_14.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/wally-rblx/funky-friday-autoplay/main/main.lua",true))()
+end)
+
+TextButton_15.Parent = GUI
+TextButton_15.BackgroundColor3 = Color3.fromRGB(104, 104, 104)
+TextButton_15.Position = UDim2.new(0.7839607, 0, 0.132653058, 0)
+TextButton_15.Size = UDim2.new(0, 132, 0, 47)
+TextButton_15.Font = Enum.Font.SourceSans
+TextButton_15.Text = "Arsenal"
+TextButton_15.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_15.TextSize = 40.000
+TextButton_15.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
+end)
+
+TextButton_16.Parent = GUI
+TextButton_16.BackgroundColor3 = Color3.fromRGB(104, 104, 104)
+TextButton_16.Position = UDim2.new(0.56792146, 0, 0.132653058, 0)
+TextButton_16.Size = UDim2.new(0, 132, 0, 47)
+TextButton_16.Font = Enum.Font.SourceSans
+TextButton_16.Text = "MM2"
+TextButton_16.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_16.TextSize = 40.000
+TextButton_16.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet(('https://raw.githubusercontent.com/Ethanoj1/EclipseMM2/master/Script'),true))()
+end)
+
+TextButton_17.Parent = GUI
+TextButton_17.BackgroundColor3 = Color3.fromRGB(104, 104, 104)
+TextButton_17.Position = UDim2.new(0.21603927, 0, 0.132653058, 0)
+TextButton_17.Size = UDim2.new(0, 132, 0, 47)
+TextButton_17.Font = Enum.Font.SourceSans
+TextButton_17.Text = "Hitboxes"
+TextButton_17.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_17.TextSize = 40.000
+
+TextButton_18.Parent = GUI
+TextButton_18.BackgroundColor3 = Color3.fromRGB(104, 104, 104)
+TextButton_18.Position = UDim2.new(0.216039285, 0, 0.772108853, 0)
+TextButton_18.Size = UDim2.new(0, 132, 0, 47)
+TextButton_18.Font = Enum.Font.SourceSans
+TextButton_18.Text = "Soon!"
+TextButton_18.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_18.TextSize = 40.000
+
+TextButton_19.Parent = GUI
+TextButton_19.BackgroundColor3 = Color3.fromRGB(104, 104, 104)
+TextButton_19.Position = UDim2.new(0, 0, 0.772108853, 0)
+TextButton_19.Size = UDim2.new(0, 132, 0, 47)
 TextButton_19.Font = Enum.Font.SourceSans
-TextButton_19.Text = "Close"
+TextButton_19.Text = "Soon!"
 TextButton_19.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_19.TextSize = 30.000
+TextButton_19.TextSize = 40.000
 
-ImageLabel.Parent = Frame
-ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ImageLabel.Position = UDim2.new(-0.00308166421, 0, 0, 0)
-ImageLabel.Size = UDim2.new(0, 55, 0, 49)
-ImageLabel.Image = "http://www.roblox.com/asset/?id=9606023873"
-
-TextButton_20.Parent = ScreenGui
-TextButton_20.BackgroundColor3 = Color3.fromRGB(55, 255, 0)
-TextButton_20.Position = UDim2.new(-0.00696057035, 0, 0.381404161, 0)
-TextButton_20.Size = UDim2.new(0, 64, 0, 52)
+TextButton_20.Parent = GUI
+TextButton_20.BackgroundColor3 = Color3.fromRGB(104, 104, 104)
+TextButton_20.Position = UDim2.new(0.7839607, 0, 0.772108853, 0)
+TextButton_20.Size = UDim2.new(0, 132, 0, 47)
 TextButton_20.Font = Enum.Font.SourceSans
-TextButton_20.Text = "Open"
+TextButton_20.Text = "Soon!"
 TextButton_20.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_20.TextSize = 20.000
-TextButton_20.Active = true
-TextButton_20.Draggable = true
+TextButton_20.TextSize = 40.000
 
-local function VVJFHT_fake_script() -- Frame.LocalScript 
-	local script = Instance.new('LocalScript', Frame)
+TextButton_21.Parent = GUI
+TextButton_21.BackgroundColor3 = Color3.fromRGB(104, 104, 104)
+TextButton_21.Position = UDim2.new(0.56792146, 0, 0.772108853, 0)
+TextButton_21.Size = UDim2.new(0, 132, 0, 47)
+TextButton_21.Font = Enum.Font.SourceSans
+TextButton_21.Text = "Soon!"
+TextButton_21.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_21.TextSize = 40.000
+
+TextLabel_2.Parent = GUI
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(104, 104, 104)
+TextLabel_2.Position = UDim2.new(0.43207857, 0, 0.132653058, 0)
+TextLabel_2.Size = UDim2.new(0, 83, 0, 47)
+TextLabel_2.Font = Enum.Font.SourceSans
+TextLabel_2.Text = "M to hide"
+TextLabel_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.TextSize = 27.000
+
+TextButton_22.Parent = GUI
+TextButton_22.BackgroundColor3 = Color3.fromRGB(104, 104, 104)
+TextButton_22.Position = UDim2.new(0.43207857, 0, 0.772108853, 0)
+TextButton_22.Size = UDim2.new(0, 83, 0, 47)
+TextButton_22.Font = Enum.Font.SourceSans
+TextButton_22.Text = "Soon!"
+TextButton_22.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_22.TextSize = 30.000
+
+TextButton_23.Parent = GUI
+TextButton_23.BackgroundColor3 = Color3.fromRGB(104, 104, 104)
+TextButton_23.Position = UDim2.new(0.43207857, 0, 0.612244904, 0)
+TextButton_23.Size = UDim2.new(0, 83, 0, 47)
+TextButton_23.Font = Enum.Font.SourceSans
+TextButton_23.Text = "Soon!"
+TextButton_23.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_23.TextSize = 30.000
+
+TextButton_24.Parent = GUI
+TextButton_24.BackgroundColor3 = Color3.fromRGB(104, 104, 104)
+TextButton_24.Position = UDim2.new(0.43207857, 0, 0.452380955, 0)
+TextButton_24.Size = UDim2.new(0, 83, 0, 47)
+TextButton_24.Font = Enum.Font.SourceSans
+TextButton_24.Text = "Soon!"
+TextButton_24.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_24.TextSize = 30.000
+
+TextButton_25.Parent = GUI
+TextButton_25.BackgroundColor3 = Color3.fromRGB(104, 104, 104)
+TextButton_25.Position = UDim2.new(0.43207857, 0, 0.292517006, 0)
+TextButton_25.Size = UDim2.new(0, 83, 0, 47)
+TextButton_25.Font = Enum.Font.SourceSans
+TextButton_25.Text = "Bedwars"
+TextButton_25.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_25.TextSize = 28.000
+TextButton_25.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
+end)
+
+TextButton_26.Parent = ScreenGui
+TextButton_26.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_26.Position = UDim2.new(0, 0, 0.413518876, 0)
+TextButton_26.Size = UDim2.new(0, 56, 0, 49)
+TextButton_26.Font = Enum.Font.SourceSans
+TextButton_26.Text = "Open"
+TextButton_26.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_26.TextSize = 30.000
+
+-- Scripts:
+
+local function RFBUAN_fake_script() -- TextLabel.LocalScript 
+	local script = Instance.new('LocalScript', TextLabel)
+
+	--LocalScript
+	--put this script in a TextLabel
+	
+	local delay2 = 0.1 
+	local TextLabel = script.Parent 
+	while true do 
+		TextLabel.TextColor3 = Color3.new(255, 0, 0) 
+		wait(delay2) 
+		TextLabel.TextColor3 = Color3.new(1, 0.333333, 0) 
+		wait(delay2) 
+		TextLabel.TextColor3 = Color3.new(1, 1, 0) 
+		wait(delay2) 
+		TextLabel.TextColor3 = Color3.new(0.333333, 1, 0) 
+		wait(delay2) 
+		TextLabel.TextColor3 = Color3.new(0, 0.482353, 1)
+		wait(delay2) 
+		TextLabel.TextColor3 = Color3.new(0.333333, 0, 0.498039)
+		wait(delay2) 
+	end
+end
+coroutine.wrap(RFBUAN_fake_script)()
+local function RIWCS_fake_script() -- TextButton_2.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_2)
+
+	--LocalScript
+	--put this script in a TextLabel
+	
+	local delay2 = 0.1 
+	local TextLabel = script.Parent 
+	while true do 
+		TextLabel.TextColor3 = Color3.new(255, 0, 0) 
+		wait(delay2) 
+		TextLabel.TextColor3 = Color3.new(1, 0.333333, 0) 
+		wait(delay2) 
+		TextLabel.TextColor3 = Color3.new(1, 1, 0) 
+		wait(delay2) 
+		TextLabel.TextColor3 = Color3.new(0.333333, 1, 0) 
+		wait(delay2) 
+		TextLabel.TextColor3 = Color3.new(0, 0.482353, 1)
+		wait(delay2) 
+		TextLabel.TextColor3 = Color3.new(0.333333, 0, 0.498039)
+		wait(delay2) 
+	end
+end
+coroutine.wrap(RIWCS_fake_script)()
+local function SAHF_fake_script() -- TextButton_2.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Visible = false
+	end)
+end
+coroutine.wrap(SAHF_fake_script)()
+local function MJRKMO_fake_script() -- GUI.LocalScript 
+	local script = Instance.new('LocalScript', GUI)
 
 	player = game.Players.LocalPlayer
 	
@@ -285,19 +389,35 @@ local function VVJFHT_fake_script() -- Frame.LocalScript
 		end
 	end)
 end
-coroutine.wrap(VVJFHT_fake_script)()
-local function YHDE_fake_script() -- TextButton_19.LocalScript 
-	local script = Instance.new('LocalScript', TextButton_19)
+coroutine.wrap(MJRKMO_fake_script)()
+local function JDRLOML_fake_script() -- TextButton_26.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_26)
 
-	script.Parent.MouseButton1Click:Connect(function()
-		script.Parent.Parent.Visible = false
-	end)
+	--LocalScript
+	--put this script in a TextLabel
+	
+	local delay2 = 0.1 
+	local TextLabel = script.Parent 
+	while true do 
+		TextLabel.TextColor3 = Color3.new(255, 0, 0) 
+		wait(delay2) 
+		TextLabel.TextColor3 = Color3.new(1, 0.333333, 0) 
+		wait(delay2) 
+		TextLabel.TextColor3 = Color3.new(1, 1, 0) 
+		wait(delay2) 
+		TextLabel.TextColor3 = Color3.new(0.333333, 1, 0) 
+		wait(delay2) 
+		TextLabel.TextColor3 = Color3.new(0, 0.482353, 1)
+		wait(delay2) 
+		TextLabel.TextColor3 = Color3.new(0.333333, 0, 0.498039)
+		wait(delay2) 
+	end
 end
-coroutine.wrap(YHDE_fake_script)()
-local function MYYU_fake_script() -- TextButton_20.LocalScript 
-	local script = Instance.new('LocalScript', TextButton_20)
+coroutine.wrap(JDRLOML_fake_script)()
+local function NAQW_fake_script() -- TextButton_26.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_26)
 
-	local frame = script.Parent.Parent.Frame
+	local frame = script.Parent.Parent.GUI
 	local open = false
 	
 	script.Parent.MouseButton1Click:Connect(function()
@@ -306,4 +426,4 @@ local function MYYU_fake_script() -- TextButton_20.LocalScript
 		end
 	end)
 end
-coroutine.wrap(MYYU_fake_script)()
+coroutine.wrap(NAQW_fake_script)()
