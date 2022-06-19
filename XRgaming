@@ -31,8 +31,6 @@ local TextButton_24 = Instance.new("TextButton")
 local TextButton_25 = Instance.new("TextButton")
 local TextButton_26 = Instance.new("TextButton")
 
---Properties:
-
 ScreenGui.Parent = game.CoreGui
 
 GUI.Name = "GUI"
@@ -59,9 +57,6 @@ TextButton.Font = Enum.Font.SourceSans
 TextButton.Text = "ESP"
 TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextButton.TextSize = 40.000
-TextButton.MouseButton1Down:Connect(function()
-	loadstring(game:HttpGet('https://pastebin.com/raw/Vv3mgJEd')()
-end)
 
 TextButton_2.Parent = GUI
 TextButton_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
@@ -316,9 +311,7 @@ TextButton_26.Text = "Open"
 TextButton_26.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_26.TextSize = 30.000
 
--- Scripts:
-
-local function RFBUAN_fake_script() -- TextLabel.LocalScript 
+local function RFBUAN_fake_script() 
 	local script = Instance.new('LocalScript', TextLabel)
 
 	--LocalScript
