@@ -144,9 +144,12 @@ TextButton_11.BackgroundColor3 = Color3.fromRGB(104, 104, 104)
 TextButton_11.Position = UDim2.new(0.7839607, 0, 0.292517006, 0)
 TextButton_11.Size = UDim2.new(0, 132, 0, 47)
 TextButton_11.Font = Enum.Font.SourceSans
-TextButton_11.Text = "Soon!"
+TextButton_11.Text = "infinite yield"
 TextButton_11.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_11.TextSize = 40.000
+TextButton_11.TextSize = 30.000
+TextButton_11.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet"https://raw.githubusercontent.com/XRgaming/infinite-yield/XRgamingforgudSCRIPT)/infinite%20yield")()
+end)
 
 TextButton_12.Parent = GUI
 TextButton_12.BackgroundColor3 = Color3.fromRGB(104, 104, 104)
@@ -310,10 +313,8 @@ TextButton_26.Font = Enum.Font.SourceSans
 TextButton_26.Text = "Open"
 TextButton_26.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_26.TextSize = 30.000
-TextButton_26.Active = true
-TextButton_26.Draggable = true
 
-local function RFBUAN_fake_script() 
+local function DDUQUE_fake_script() -- TextLabel.LocalScript 
 	local script = Instance.new('LocalScript', TextLabel)
 
 	--LocalScript
@@ -336,8 +337,8 @@ local function RFBUAN_fake_script()
 		wait(delay2) 
 	end
 end
-coroutine.wrap(RFBUAN_fake_script)()
-local function RIWCS_fake_script() -- TextButton_2.LocalScript 
+coroutine.wrap(DDUQUE_fake_script)()
+local function MKFOD_fake_script() -- TextButton_2.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_2)
 
 	--LocalScript
@@ -360,16 +361,16 @@ local function RIWCS_fake_script() -- TextButton_2.LocalScript
 		wait(delay2) 
 	end
 end
-coroutine.wrap(RIWCS_fake_script)()
-local function SAHF_fake_script() -- TextButton_2.LocalScript 
+coroutine.wrap(MKFOD_fake_script)()
+local function OBYATLB_fake_script() -- TextButton_2.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_2)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.Visible = false
 	end)
 end
-coroutine.wrap(SAHF_fake_script)()
-local function MJRKMO_fake_script() -- GUI.LocalScript 
+coroutine.wrap(OBYATLB_fake_script)()
+local function UNQOYSB_fake_script() -- GUI.LocalScript 
 	local script = Instance.new('LocalScript', GUI)
 
 	player = game.Players.LocalPlayer
@@ -384,8 +385,8 @@ local function MJRKMO_fake_script() -- GUI.LocalScript
 		end
 	end)
 end
-coroutine.wrap(MJRKMO_fake_script)()
-local function JDRLOML_fake_script() -- TextButton_26.LocalScript 
+coroutine.wrap(UNQOYSB_fake_script)()
+local function TSZB_fake_script() -- TextButton_26.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_26)
 
 	--LocalScript
@@ -408,8 +409,8 @@ local function JDRLOML_fake_script() -- TextButton_26.LocalScript
 		wait(delay2) 
 	end
 end
-coroutine.wrap(JDRLOML_fake_script)()
-local function NAQW_fake_script() -- TextButton_26.LocalScript 
+coroutine.wrap(TSZB_fake_script)()
+local function AMZB_fake_script() -- TextButton_26.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_26)
 
 	local frame = script.Parent.Parent.GUI
@@ -421,4 +422,4 @@ local function NAQW_fake_script() -- TextButton_26.LocalScript
 		end
 	end)
 end
-coroutine.wrap(NAQW_fake_script)()
+coroutine.wrap(AMZB_fake_script)()
